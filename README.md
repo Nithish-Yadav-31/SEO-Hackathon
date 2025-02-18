@@ -3,7 +3,7 @@
 Workflow:
 ![archi updated](https://github.com/user-attachments/assets/0cc77522-3837-428f-90e7-92a409ced52e)
 
-```markdown
+```
 # Running the SEO Hackathon Application
 
 This guide outlines the steps required to set up and run the SEO Hackathon application.
@@ -33,7 +33,7 @@ Replace `<repository_url>` with the URL of your project's Git repository and `<p
 
 It's best practice to create a separate Conda environment for your project to isolate its dependencies:
 
-```bash
+```
 conda create --name seo-hackathon python=3.9  # Creates an environment named "seo-hackathon"
 conda activate seo-hackathon          # Activates the "seo-hackathon" environment
 ```
@@ -67,7 +67,7 @@ GOOGLE_API_KEY=<YOUR_GOOGLE_API_KEY>
 
 Once you have installed the dependencies and configured the API keys, you can run the Flask application:
 
-```bash
+```
 python app.py
 ```
 
