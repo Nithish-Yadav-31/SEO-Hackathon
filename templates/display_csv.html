@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Analysis Results</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif; /* Apply Poppins font */
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start; /* Align content to the top */
+            min-height: 100vh;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+            margin-top: 40px; /* Add some top margin */
+        }
+
+        h2 {
+            color: #34495e;
+            margin-top: 20px;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 5px;
+        }
+
+        p {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 6px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+            margin-bottom: 20px;
+            width: 80%;
+            max-width: 800px;
+            text-align: left;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Analysis Results for <b>{{ website_url }}</b></h1>
+
+        <h2>Website Keywords:</h2>
+        <p>{{ competitor_keywords }}</p>
+
+        <h2>Competitor Keywords:</h2>
+        <p>{{ website_keywords }}</p>
+
+        <h2>Search Query:</h2>
+        <p>{{ search_query }}</p>
+
+        <h2>Website Intent:</h2>
+        <p>{{ competitor_intent }}</p>
+
+        <h2>Competitor Intent:</h2>
+        <p>{{ website_intent }}</p>
+
+        <h2>Overall Intent:</h2>
+        <p>{{ overall_intent }}</p>
+
+        <h2>Similarity Score(Vector Embeddings):</h2>
+        <p>{{ similarity_score }}</p>
+
+        <h2>HyDE Similarity Score:</h2>
+        <p>{{ hyde_similarity_score }}</p>
+    
+        <h2>Missing Topics:</h2>
+        <p>{{missing_topics}}</p>
+    </div>
+</body>
+</html>
