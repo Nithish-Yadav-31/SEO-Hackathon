@@ -3,7 +3,7 @@
 Workflow:
 ![archi updated](https://github.com/user-attachments/assets/0cc77522-3837-428f-90e7-92a409ced52e)
 
-```
+
 # Running the SEO Hackathon Application
 
 This guide outlines the steps required to set up and run the SEO Hackathon application.
@@ -12,7 +12,7 @@ This guide outlines the steps required to set up and run the SEO Hackathon appli
 
 Before you begin, ensure that you have the following installed:
 
-*   **Python:** Python 3.8 or higher. You can download it from [https://www.python.org/downloads/](https://www.python.org/downloads/).
+  **Python:** Python 3.8 or higher. You can download it from [https://www.python.org/downloads/](https://www.python.org/downloads/).
 *   **Conda (Recommended):** Conda is a package and environment manager. It can be downloaded from [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html).  Using Conda is highly recommended for managing dependencies.
 *   **Git (Optional):** Git is a version control system. It is useful for cloning the project repository. It can be downloaded from [https://git-scm.com/downloads](https://git-scm.com/downloads).
 
