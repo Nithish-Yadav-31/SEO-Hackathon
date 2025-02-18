@@ -1,7 +1,7 @@
 # SEO-Hackathon
 
 Workflow:
-![archi updated](https://github.com/user-attachments/assets/0cc77522-3837-428f-90e7-92a409ced52e)
+![archi updated](https://github.com/user-attachments/assets/1d732436-b934-4ab9-b930-8bd6cf2e2ace)
 
 
 # Running the SEO Hackathon Application
